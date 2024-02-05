@@ -1,0 +1,110 @@
+.img-thumbnail{
+    margin-top: 15px;
+    margin-left: 9px;
+}
+
+.body {
+    margin: 0;
+    padding: 0;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    font-family: Arial, sans-serif;
+    background-color: darkseagreen;
+    
+}
+.aboutme{
+    background-color: honeydew;
+}
+.contact{
+    background-color:gainsboro;
+}
+
+ 
+.footer{
+    position: fixed;
+      bottom: 0;
+      width: 100%;
+      background-color: #333; 
+      color: #fff; 
+      padding: 10px; 
+  }
+
+  .container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    gap: 10px; /* Adjust gap as needed */
+    height: 100vh;
+  }
+
+  .content {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+  }
+  
+  .frame {
+    width: 500px; /* Set the width as needed */
+    height: 640px; /* Set the height as needed */
+    border: 1px solid #000; /* Add border for visibility */
+    margin: 20px; /* Adjust margin as needed */
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .frame1 {
+    grid-column: 1;
+    grid-row: 1;
+    background-color: floralwhite;
+  }
+  
+  .frame2 {
+    grid-column: 2;
+    grid-row: 1;
+    background-color: floralwhite;
+
+  }
+  
+  .frame3 {
+    grid-column: 1;
+    grid-row: 2;
+    background-color: floralwhite;
+
+  }
+  
+  .frame4 {
+    grid-column: 2;
+    grid-row: 2;
+    background-color: floralwhite;
+
+  }
+    
+  .baskia{
+    width:70%;
+    height: 70%;
+    object-fit: cover;
+  }
+
+  .kit_haring{
+    width:70%;
+    height: 70%;
+    object-fit: cover;
+  }
+  
+  .lithejer{
+    width:70%;
+    height: 70%;
+    object-fit: cover;
+  }
+
+  .maradona{
+    width:70%;
+    height: 70%;
+    object-fit: cover;
+  }
+
+
+  
